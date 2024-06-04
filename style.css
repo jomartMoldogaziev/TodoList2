@@ -1,89 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap');
 
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url(./img/uzory_fon_temnyj_50408_2560x1600.jpg);
-    background-repeat: repeat;
-    background-size: cover;
-    font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(./img/uzory_fon_temnyj_50408_2560x1600.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .container {
-    margin: 0;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	margin: 0;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 h1 {
-    margin-top: 180px;
-    color: rgb(255, 255, 255);
-    font-size: 45px;
-    font-weight: bold;
-    font-style: normal;
-    border: none;
-    border-bottom: 2px solid rgba(54, 130, 237, 0.701);
-    /* background-color: rgba(132, 85, 35, 0.502); */
+	margin-top: 180px;
+	color: rgb(255, 255, 255);
+	font-size: 45px;
+	font-weight: bold;
+	font-style: normal;
+	border: none;
+	border-bottom: 2px solid rgba(54, 130, 237, 0.701);
+	/* background-color: rgba(132, 85, 35, 0.502); */
 }
 
 .mainBlock {
-    margin-top: 10px;
-    width: 80%;
-    max-width: 800px;
-    background-color: rgba(8, 8, 8, 0.671);
-    margin-bottom: 1.5em;
-    padding: 1.5em;
-    opacity: 0.8;
-    border: 5px double rgb(255, 255, 255);
-    border-radius: 20px;
+	margin-top: 10px;
+	width: 80%;
+	max-width: 800px;
+	background-color: rgba(8, 8, 8, 0.671);
+	margin-bottom: 1.5em;
+	padding: 1.5em;
+	opacity: 0.8;
+	border: 5px double rgb(255, 255, 255);
+	border-radius: 20px;
 }
 
 .mainBlock div {
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
-    grid-column-gap: 10px;
+	display: grid;
+	grid-template-columns: 3fr 1fr 1fr;
+	grid-column-gap: 10px;
 }
 
 .texIn,
 .setDate,
 #addBtn {
-    font-size: 20px;
-    border: 3px solid rgb(248, 245, 245);
-    border-radius: 20px;
+	font-size: 20px;
+	border: 3px solid rgb(248, 245, 245);
+	border-radius: 20px;
 }
 
 .texIn {
-    height: 2em;
-    text-align: center;
-    color: rgb(0, 1, 4);
-
+	height: 2em;
+	text-align: center;
+	color: rgb(0, 1, 4);
 }
 
 .setDate {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+	font-size: 20px;
+	color: rgb(0, 0, 0);
 }
 
 #addBtn {
-    font-size: 20px;
-    background-color: rgba(42, 126, 236, 0.568);
-    color: rgb(255, 255, 255);
+	font-size: 20px;
+	background-color: rgba(42, 126, 236, 0.568);
+	color: rgb(255, 255, 255);
 }
 
 .btn {
-    width: 30px;
+	width: 30px;
+	margin-left: 30px;
 }
 
 .taskItem {
-    font-size: 25px;
-    color: rgb(251, 251, 251);
-    display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
-    border-bottom: 3px solid  rgb(173, 185, 206);
-    margin-bottom: 15px;
+	font-size: 25px;
+	color: rgb(251, 251, 251);
+	display: grid;
+	grid-template-columns: 1fr 10fr 1fr;
+	border-bottom: 3px solid rgb(173, 185, 206);
+	margin-bottom: 15px;
 }
 
 /* .taskItem.completed label {
@@ -91,71 +91,73 @@ h1 {
     color: rgb(123, 148, 237);
 } */
 
-.done{
-    text-decoration: line-through;
-    color: rgb(85, 140, 240);
+.done {
+	text-decoration: line-through;
+	color: rgb(85, 140, 240);
 }
 
 @media (max-width: 1024px) {
-    h1 {
-        font-size: 40px;
-    }
+	h1 {
+		font-size: 40px;
+	}
 
-    .mainBlock {
-        width: 90%;
-        padding: 1em;
-    }
+	.mainBlock {
+		width: 90%;
+		padding: 1em;
+	}
 
-    .taskItem {
-        font-size: 22px;
-    }
+	.taskItem {
+		font-size: 22px;
+	}
 }
 
 @media (max-width: 768px) {
-    h1 {
-        font-size: 35px;
-    }
+	h1 {
+		font-size: 35px;
+	}
 
-    .mainBlock div {
-        grid-template-columns: 1fr;
-        grid-row-gap: 10px;
-    }
+	.mainBlock div {
+		grid-template-columns: 1fr;
+		grid-row-gap: 10px;
+	}
 
-    .taskItem {
-        font-size: 20px;
-    }
+	.taskItem {
+		font-size: 20px;
+	}
 }
 
 @media (max-width: 480px) {
-    h1 {
-        font-size: 20px;
-        margin-top: 10px;
-    }
+	h1 {
+		font-size: 20px;
+		margin-top: 10px;
+	}
 
-    .mainBlock {
-        width: 80%;
-        padding: 0.5em;
-        margin-top: 5px;
-    }
+	.mainBlock {
+		width: 80%;
+		padding: 0.5em;
+		margin-top: 5px;
+	}
 
-    .texIn,
-    #addBtn {
-        font-size: 15px;
+	.texIn,
+	#addBtn {
+		font-size: 15px;
+	}
 
-    }
+	.setDate {
+		width: 98%;
+		text-align: center;
+	}
 
-    .setDate {
-        width: 98%;
-        text-align: center;
-    }
+	.taskItem {
+		font-size: 15px;
+		margin-left: -25px;
+		margin-top: 15px;
+	}
 
-    .taskItem {
-        font-size: 15px;
-        margin-left: -25px;
-        margin-top: 15px;
-    }
-
-    .btn {
-        width: 22px;
-    }
+	.btn {
+		width: 22px;
+	}
+	.btn1 {
+		margin-left: -30px;
+	}
 }

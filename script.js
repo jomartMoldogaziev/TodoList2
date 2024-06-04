@@ -163,7 +163,7 @@ const renderTodoItem = () => {
 		let doneCheckbox = document.createElement('input')
 		doneCheckbox.type = 'checkbox'
 		doneCheckbox.checked = todo.checked
-		doneCheckbox.className = 'btn'
+		doneCheckbox.className = 'btn1'
 		doneCheckbox.addEventListener('change', () => {
 			completeTodo(todo.id)
 		})
